@@ -20,4 +20,5 @@ class Triangle
     else
       puts scalene
     end
+  end
 ends
