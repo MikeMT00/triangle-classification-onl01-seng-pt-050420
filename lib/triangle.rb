@@ -21,4 +21,4 @@ class Triangle
       puts scalene
     end
   end
-ends
+end
