@@ -1,12 +1,6 @@
 class Triangle
   attr_accessor :equilateral, :isosceles, :scalene
 
-  class TriangleError < StandardError
-    def message
-      "The sum of the lengths of any two sides of a triangle always exceeds the length of the third side."
-    end
-  end
-
   def initialize(first_side, second_side, third_side)
     @first_side = first_side
     @second_side = second_side
@@ -31,4 +25,11 @@ class Triangle
       :scalene
     end
   end
+
+  class TriangleError < StandardError
+    def message
+      "The sum of the lengths of any two sides of a triangle always exceeds the length of the third side."
+    end
+  end
+  
 end
