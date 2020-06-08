@@ -16,4 +16,5 @@ class Triangle
     else
       puts scalene
     end
+  end
 end
